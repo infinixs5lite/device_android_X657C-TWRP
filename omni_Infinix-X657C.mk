@@ -12,12 +12,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from Infinix-X657C device
-$(call inherit-product, device/infinix/Infinix-X657C/device.mk)
+$(call inherit-product, device/infinix/Infinix-h6117/device.mk)
 
-PRODUCT_DEVICE := Infinix-X657C
-PRODUCT_NAME := omni_Infinix-X657C
+PRODUCT_DEVICE := Infinix-h6117
+PRODUCT_NAME := omni_Infinix-h6117
 PRODUCT_BRAND := Infinix
-PRODUCT_MODEL := Infinix X657C
+PRODUCT_MODEL := Infinix h6117
 PRODUCT_MANUFACTURER := infinix
 
 PRODUCT_GMS_CLIENTID_BASE := android-transsion-infinix-rev1
