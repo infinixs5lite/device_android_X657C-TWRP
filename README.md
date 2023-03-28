@@ -1,10 +1,7 @@
 # Android device tree for Infinix Infinix X657C (Infinix-X657C)
 
-```
-#
-# Copyright (C) 2022 The Android Open Source Project
-# Copyright (C) 2022 SebaUbuntu's TWRP device tree generator
-#
-# SPDX-License-Identifier: Apache-2.0
-#
-```
+
+OS	Android 10 (Go edition)
+Chipset	Mediatek MT6761D Helio A20 (12 nm)
+CPU	Quad-core 1.8 GHz Cortex-A53
+GPU	PowerVR GE8320
