@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_Infinix-X657C.mk
+    $(LOCAL_DIR)/omni_Infinix-h6117.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_Infinix-X657C-user \
-    omni_Infinix-X657C-userdebug \
-    omni_Infinix-X657C-eng
+    omni_Infinix-h6117-user \
+    omni_Infinix-h6117-userdebug \
+    omni_Infinix-h6117-eng
