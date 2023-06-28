@@ -9,6 +9,4 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/omni_X657C.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_X657C-user \
-    omni_X657C-userdebug \
     omni_X657C-eng
