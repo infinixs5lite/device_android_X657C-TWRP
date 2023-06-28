@@ -96,6 +96,9 @@ TW_INCLUDE_CRYPTO_FBE := true
 # Workaround for error copying vendor files to recovery ramdisk
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR := vendor
+TARGET_COPY_OUT_PRODUCT := product
+TARGET_COPY_OUT_SYSTEM_EXT4 := system_ext4
+TARGET_COPY_OUT_SYSTEM := system
 
 # Debugging
 TWRP_INCLUDE_LOGCAT := true
