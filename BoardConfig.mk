@@ -95,6 +95,7 @@ TW_INCLUDE_CRYPTO_FBE := true
 
 # System As Root
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
+BOARD_SUPPRESS_SECURE_ERASE := true
 
 # Workaround for error copying vendor files to recovery ramdisk
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
@@ -111,6 +112,8 @@ TARGET_USES_LOGD := true
 BOARD_INCLUDE_RECOVERY_DTBO := true
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
+BOARD_USES_RECOVERY_AS_BOOT := false
+TARGET_NO_RECOVERY := false
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-08-01
