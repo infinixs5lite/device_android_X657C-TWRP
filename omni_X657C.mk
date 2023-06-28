@@ -48,7 +48,7 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := X657C
-PRODUCT_NAME := twrp_X657C
+PRODUCT_NAME := omni_X657C
 PRODUCT_BRAND := infinix
 PRODUCT_MODEL := Infinix smart 5
 PRODUCT_MANUFACTURER := infinix mobility 
