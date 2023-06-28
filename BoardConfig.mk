@@ -83,7 +83,7 @@ TARGET_USES_MKE2FS := true
 BOARD_SUPPRESS_SECURE_ERASE := true
 BOARD_USES_METADATA_PARTITION := true
 
- Properties
+# Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # Decryption
