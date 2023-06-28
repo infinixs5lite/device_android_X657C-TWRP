@@ -93,6 +93,9 @@ TW_INCLUDE_METADATA_DECRYPT := true
 BOARD_USES_FBE_DECRYPTION := true
 TW_INCLUDE_CRYPTO_FBE := true
 
+# System As Root
+BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
+
 # Workaround for error copying vendor files to recovery ramdisk
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR := vendor
