@@ -1,4 +1,4 @@
-ro.sf.lcd_density=320
+ro.sys.usb.storage.type=mtp
 ro.mediatek.platform=MT6761
 ro.hardware=mt6761
 ro.crypto.volume.filenames_mode=aes-256-cts
