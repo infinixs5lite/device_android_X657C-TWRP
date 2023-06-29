@@ -17,8 +17,11 @@
 #
 
 # Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/embedded.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/treble_common_64.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/runtime_libart.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
@@ -39,3 +42,13 @@ PRODUCT_MODEL := Infinix smart 5
 PRODUCT_MANUFACTURER := infinix mobility 
 
 PRODUCT_GMS_CLIENTID_BASE := android-infinix
+
+# enable stock zip packages flash
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.treble.enabled=true \
+    persist.sys.usb.config=mtp \
+    persist.service.adb.enable=1 \
+    persist.service.debuggable=1 \
+    ro.secure=1 \
+    ro.adb.secure=0 \
+    ro.allow.mock.location=0
