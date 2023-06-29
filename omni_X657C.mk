@@ -30,8 +30,6 @@ PRODUCT_PACKAGES += \
 
 # Define Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
-PRODUCT_TARGET_VNDK_VERSION := 28
-PRODUCT_SHIPPING_API_LEVEL := 28
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := X657C
