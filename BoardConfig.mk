@@ -156,3 +156,6 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TARGET_USES_MKE2FS := true
 TW_EXCLUDE_TWRPAPP := true
 TW_DEVICE_VERSION := Build By @kelvinchinedu89
+
+# PitchBlack Flags
+PB_DISABLE_DEFAULT_DM_VERITY := true
