@@ -24,7 +24,3 @@ PRODUCT_MODEL := Infinix smart 5
 PRODUCT_MANUFACTURER := infinix mobility 
 
 PRODUCT_GMS_CLIENTID_BASE := android-infinix
-
-# HACK: Set vendor patch level
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.build.security_patch=2099-12-31
