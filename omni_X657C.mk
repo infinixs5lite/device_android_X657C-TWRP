@@ -5,7 +5,7 @@ PRODUCT_RELEASE_NAME := X657C
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/twrp/config/common.mk)
+$(call inherit-product, vendor/omni/config/common.mk)
 
 # Define Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
